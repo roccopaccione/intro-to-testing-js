@@ -15,4 +15,13 @@ function helloWorld(){
 function sayHello(){
     return "Hello, Rocco!";
 }
-
+function sayHello(Alex) {
+    return 'Hello Alex';
+}
+function sayHello(input) {
+    if (input === "Alex"){
+        return "Hello, Alex";
+    }else{
+        return "Hello, Jane";
+    }
+}
