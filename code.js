@@ -12,23 +12,23 @@
 function helloWorld(){
     return "Hello, World!";
 }
-function sayHello(){
-    return "Hello, Rocco!";
+function sayHello(name) {
+    return "Hello, " + name ;
 }
-function sayHello(Alex) {
-    return 'Hello Alex';
-}
-function sayHello(input) {
-    if (input === "Alex"){
-        return "Hello, Alex";
-    }else{
-        return "Hello, Jane";
-    }
-}
-function sayHello(input){
-    if (input === "Pat"){
-        return "Hello, Pat";
-    }else{
-        return "Hello, Jane";
-    }
-}
+// function sayHello(Alex) {
+//     return 'Hello Alex';
+// }
+// function sayHello(input) {
+//     if (input === "Alex"){
+//         return "Hello, Alex";
+//     }else{
+//         return "Hello, Jane";
+//     }
+// }
+// function sayHello(input){
+//     if (input === "Pat"){
+//         return "Hello, Pat";
+//     }else{
+//         return "Hello, Jane";
+//     }
+// }
